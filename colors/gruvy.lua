@@ -19,6 +19,11 @@ end
 
 local p = require("gruvy")
 
+vim.cmd("hi clear")
+if vim.fn.exists("syntax_on") then
+	vim.cmd("syntax reset")
+end
+
 -- Vim editor colors {{{
 
 highlight("Normal", p.light2, p.dark0, nil, nil)
