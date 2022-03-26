@@ -81,7 +81,7 @@ highlight("NormalFloat", nil, p.darker)
 
 highlight("Boolean", p.bright_orange, nil, nil, nil)
 highlight("Character", p.bright_red, nil, nil, nil)
-highlight("Comment", p.gray, nil, "italic", nil)
+highlight("Comment", p.gray, nil, nil, nil)
 highlight("Conditional", p.bright_purple, nil, nil, nil)
 highlight("Constant", p.bright_orange, nil, nil, nil)
 highlight("Define", p.bright_purple, nil, "none", nil)
