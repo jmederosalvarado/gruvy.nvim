@@ -217,9 +217,6 @@ highlight("NvimTreeNormal", nil, p.darker)
 highlight("NvimTreeNormalNC", nil, p.darker)
 highlight("NvimTreeOpenedFolderName", p.neutral_blue)
 highlight("NvimTreeRootFolder", p.bright_blue, p.darker, "bold")
-highlight("NvimTreeStatuslineNc", p.darker, p.darker)
-highlight("NvimTreeStatusline", p.darker, p.darker)
-highlight("NvimTreeVertSplit", p.darker, p.darker)
 highlight("NvimTreeWindowPicker", p.bright_red, p.dark2)
 
 -- }}}
